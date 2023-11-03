@@ -272,4 +272,52 @@ int main()
     //         cout << endl;
     //     }
     // }
+
+    // int row, column;
+    // row = 1;
+    // column = 0;
+    // while (row <= 4)
+    // {
+    //     while (column <= 4)
+    //     {
+    //         if (row != column)
+    //         {
+    //             cout << " "
+    //                  << "*"
+    //                  << " ";
+    //             column = column + 1;
+    //         }
+    //         else
+    //         {
+    //             column = 0;
+    //             row = row + 1;
+    //             cout << endl;
+    //         }
+    //     }
+    // }
+
+    // int row, column;
+    // row = 4;
+    // column = 0;
+    // while (row >= 1)
+    // {
+    //     if (row != column)
+    //     {
+    //         column = column + 1;
+    //         cout << "*";
+    //     }
+    //     else
+    //     {
+    //         row = row - 1;
+    //         column = 0;
+    //         cout << endl;
+    //     }
+    // }
+
+    int row = 3;
+    while (row >= 1)
+    {
+        cout << " ";
+        row = row - 1;
+    }
 }
